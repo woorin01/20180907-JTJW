@@ -40,7 +40,7 @@ public class MapGenerator : MonoBehaviour {
             GameObject TileHolder       = new GameObject("TileHolder");
             TileHolder.transform.parent = transform;
 
-            v3NowCreatePos.z = 0;
+            v3NowCreatePos = new Vector3(0, 0, 0);
         }
     }
 

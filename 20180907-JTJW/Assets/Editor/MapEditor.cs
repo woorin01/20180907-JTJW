@@ -19,7 +19,6 @@ public class MapEditor : Editor {
             if (ge)
                 ge.CreateTile();
         }
-
         ge.RenewalGeneratoedTile();
     }
 }
